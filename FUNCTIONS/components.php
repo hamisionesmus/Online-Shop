@@ -1,18 +1,18 @@
 <?php
-function component(){
+function component($productname, $productdescription, $productprice, $productimage ){
   $element = "
   <div class=\"product\"> 
-    <div class=\"product-image\">
+    <div class=\"$productimage\">
       <img src=\"./IMAGES/laptop.jpg \" />
     </div>
     <div class=\"product-details\">
-    <p class=\"product-name\">Product 1</p>
+    <p class=\"product-name\">$productname</p>
       <p class=\"product-description\">
-        laptop
+        $productdescription
       </p>
     
     <div class=\"product-price\">
-      <span>$100</span>
+      <span>$ $productprice</span>
       <button class=\"btn\">Add to Cart</button>
     </div>
     </div>
