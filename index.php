@@ -29,9 +29,42 @@
         component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
         component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
         component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
+        component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
+        component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
+        component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
+        component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
        
       ?>
       </div>
+      <!-- footer -->
+      <div class="footer">
+        <div class="footer-1">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Facebook</a></li>
+          </ul>
+        </div>
+        <div class="footer-2">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Facebook</a></li>
+          </ul>
+        </div>
+        <div class="footer-3">
+          <h3>Quick Links</h3>
+          <div class="form">
+            <input type="email" placeholder="Enter your email" />
+            <input type="text" placeholder="Message">
+            <button class="btn">Send</button>
+          </div>
+          </form>
+        </div>
       
     </div>
   </body>
