@@ -13,6 +13,17 @@
   <body>
     <!-- container -->
     <div class="container">
+      <!-- header -->
+      <div class="header">
+        <h3>Shop</h3>
+        <div class="search">
+          <input type="text" placeholder="Search an item" />
+          <button classs="btn-search">Search</button>
+        </div>
+        <h3>Bucket</h3>
+      </div>
+      <!-- section -->
+      <div class="section">
       <?php
         component("Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg");
         component( "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
@@ -24,6 +35,7 @@
         component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
        
       ?>
+      </div>
       
     </div>
   </body>

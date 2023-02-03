@@ -7,7 +7,39 @@ body {
   background-color: #f1f1f1c4;
   font-family: "Poppins", sans-serif;
 }
-.container {
+.header {
+  background-color: rgba(255, 0, 0, 0.604);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 10px;
+  align-self: center;
+}
+.search input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.search button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.section {
   max-width: 1300px;
   margin: 0 auto;
   display: grid;
