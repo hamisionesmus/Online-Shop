@@ -12,6 +12,7 @@ function component($productname, $productdescription, $productprice, $productima
       </p>
     
     <div class=\"product-price\">
+      <small><s>$1250</s> </small>
       <span>$ $productprice</span>
       <button class=\"btn\">Add to Cart</button>
     </div>
