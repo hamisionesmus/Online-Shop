@@ -1,3 +1,6 @@
+<?php
+  require_once './FUNCTIONS/components.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,74 +13,17 @@
   <body>
     <!-- container -->
     <div class="container">
-      <!-- product-1 -->
-      <div class="product">
-        <div class="product-image">
-          <img src="./IMAGES/laptop.jpg" alt="product" />
-        </div>
-        <div class="product-details">
-        <p class="product-name">Product 1</p>
-          <p class="product-description">
-            laptop
-          </p>
-        
-        <div class="product-price">
-          <span>$100</span>
-          <button class="btn">Add to Cart</button>
-        </div>
-        </div>
-      </div>
-      <!-- product-2 -->  
-      <div class="product">
-        <div class="product-image">
-          <img src="./IMAGES/laptop.jpg" alt="product" />
-        </div>
-        <div class="product-details">
-        <p class="product-name">Product 1</p>
-          <p class="product-description">
-            laptop
-          </p>
-        
-        <div class="product-price">
-          <span>$100</span>
-          <button class="btn">Add to Cart</button>
-        </div>
-        </div>
-      </div>
-        <!-- product-3 -->
-      <div class="product">
-        <div class="product-image">
-          <img src="./IMAGES/laptop.jpg" alt="product" />
-        </div>
-        <div class="product-details">
-        <p class="product-name">Product 1</p>
-          <p class="product-description">
-            laptop
-          </p>
-        
-        <div class="product-price">
-          <span>$100</span>
-          <button class="btn">Add to Cart</button>
-        </div>
-        </div>
-      </div>
-      <!-- product-4 -->
-      <div class="product">
-        <div class="product-image">
-          <img src="./IMAGES/laptop.jpg" alt="product" />
-        </div>
-        <div class="product-details">
-          <p class="product-name">product name</p>
-          <p class="product-description">
-            laptop
-          </p>
-        
-        <div class="product-price">
-          <span>$100</span>
-          <button class="btn">Add to Cart</button>
-        </div>
-        </div>
-      </div>
+      <?php
+        component();
+        component();
+        component();
+        component();
+        component();
+        component();
+        component();
+        component();
+      ?>
+      
     </div>
   </body>
 </html>
