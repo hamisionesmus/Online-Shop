@@ -8,12 +8,14 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .header {
-  background-color: rgba(255, 0, 0, 0.604);
+  background-color: rgba(91, 165, 42, 0.989);
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 0 20px;
+  position: sticky;
+  top: 0;
 }
 .search {
   display: flex;
@@ -38,6 +40,12 @@ body {
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+.icon {
+  width: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  stroke: #555;
 }
 .section {
   max-width: 1300px;
