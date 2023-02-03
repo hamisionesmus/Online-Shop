@@ -20,7 +20,7 @@ body {
 .search {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #fff;
   height: 40px;
   border-radius: 20px;
@@ -40,6 +40,9 @@ body {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  height: 100%;
+  border-radius: 20px;
+  padding: 0 10px;
 }
 .icon {
   width: 30px;
