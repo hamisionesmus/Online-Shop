@@ -14,7 +14,7 @@ body {
   grid-template-columns: 200px 200px 200px 200px;
   justify-content: center;
   align-items: center;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 .product {
   background-color: #f1f1f1;
