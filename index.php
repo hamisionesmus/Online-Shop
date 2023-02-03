@@ -18,6 +18,10 @@
         component( "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
         component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
         component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
+        component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
+        component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
+        component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
+        component(  "Laptop", "This is a laptop", 1000, "./IMAGES/product.jpg" );
        
       ?>
       
