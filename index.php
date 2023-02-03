@@ -18,10 +18,7 @@
         component();
         component();
         component();
-        component();
-        component();
-        component();
-        component();
+       
       ?>
       
     </div>
