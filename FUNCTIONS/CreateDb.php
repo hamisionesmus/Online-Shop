@@ -9,13 +9,13 @@ class CreateDb
   public $con;
 
   // class constructor
-  public function__construct
-   (
-    $dbname = "Newdb",
-    $tablename = "Productdb",
-    $servername = "localhost",
-    $username ="root",
-    $password = "" 
+  public function __construct
+  (
+  $dbname = "Newdb", 
+  $tablename = "Productdb", 
+  $servername = "localhost", 
+  $username = "root", 
+  $password = ""
   )
   {
     $this->dbname = $dbname;
@@ -56,6 +56,16 @@ class CreateDb
       return false;
     }     
 
+  }
+  // get product from the database
+  public function getData(){
+    $sql = "SELECT * FROM $this->tablename";
+
+    $result = mysqli_query($this->con, $sql);
+
+    if(mysqli_num_rows($result) > 0){
+      return $result;
+    }
   }
 
 }
